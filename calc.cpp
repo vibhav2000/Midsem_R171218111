@@ -20,4 +20,16 @@ cout << "Enter two operands: ";
 
         case '-':
             cout << num1-num2;
-            break;	
+            break;
+	case '*':
+            cout << num1*num2;
+            break;
+
+        case '/':
+            cout << num1/num2;
+            break;
+        
+            }
+
+    return 0;
+}		
